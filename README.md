@@ -4,7 +4,7 @@
 
 The following command will create the Docker image.
 
-```docker build -t data-science-environment```
+```docker build -t data-science-environment .```
 
 Then, the following command starts a container with the Notebook server listening for HTTP connections on port 8888 with a randomly generated authentication token configured.
 
